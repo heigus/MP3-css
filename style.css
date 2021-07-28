@@ -16,6 +16,7 @@
     grid-template-rows: 75px 331px 126px 135px;
     width: 100%;
     overflow: hidden;
+    background-color: var(--primary-color);
 }
 
 .header {
@@ -34,6 +35,7 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     background-color: var(--primary-color);
+    margin: 0 20px;
 }
 
 .cards-slider div {
